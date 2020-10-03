@@ -6,7 +6,7 @@ class OnClickOutside {
     );
   }
 
-  handleDocumentClick(onDocumentClick) {
+  handleDocumentClick(onDocumentClick, e) {
     if (this.dom && !this.dom.contains(e.target)) {
       onDocumentClick();
     }
