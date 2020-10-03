@@ -9,11 +9,12 @@
     "dist"
   ],
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "jest": "^26.4.2",
     "mithril": "^2.0.4",
-    "mithril-testing-library": "^1.0.1",
+    "mithril-testing-library": "^1.0.4",
     "rollup": "^1.29.0",
     "rollup-plugin-peer-deps-external": "^2.2.3"
   },
