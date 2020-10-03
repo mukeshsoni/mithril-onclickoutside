@@ -26,6 +26,11 @@
     "dev": "rollup -c -w",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mukeshsoni/mithril-onclickoutside"
+  },
+  "homepage": "https://github.com/mukeshsoni/mithril-onclickoutside",
   "keywords": [
     "mithril",
     "mithriljs",
