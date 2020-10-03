@@ -1,0 +1,28 @@
+{
+  "name": "mithril-onclickoutside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/mithril-onclickoutside.cjs.js",
+  "module": "dist/mithril-onclickoutside.esm.js",
+  "browser": "dist/mithril-onclickoutside.umd.js",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3"
+  },
+  "peerDependencies": {
+    "mithril": "2.0.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mukesh Soni",
+  "license": "MIT"
+}
