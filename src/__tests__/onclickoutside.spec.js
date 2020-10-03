@@ -34,8 +34,6 @@ test("call onDocumentClick callback on clicking outside the wrapped element", as
 });
 
 test("a slightly more involved example", async () => {
-  const handleDocumentClick = jest.fn();
-
   const ComponentToTest = {
     view: (vnode) => {
       return m("div", [
