@@ -1,6 +1,6 @@
 {
   "name": "mithril-onclickoutside",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper component which takes care of clicks outside an element. Useful for scenarios when one might want to close something like a dropdown menu on clicking outside the menu",
   "main": "dist/mithril-onclickoutside.cjs.js",
   "module": "dist/mithril-onclickoutside.esm.js",
